@@ -146,8 +146,8 @@ class App {
   }
 
   render() {
-    console.log('kyaa re re1');
-    // this.chair.rotateY(0.01);
+    // console.log('kyaa re re1');
+    this.chair.rotateY(0.01);
     this.renderer.render(this.scene, this.camera);
   }
 }
